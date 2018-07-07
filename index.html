@@ -29,12 +29,12 @@
 
     <div class="collapse navbar-collapse navbar-sub navbar-nav mr-auto" id="navbarTogglerDemo02">
       <a class="nav-link nav-item" id="about" href="#">About Us<span class="sr-only">(current)</span></a>
-      <a class="nav-link nav-item" href="#">Programs<span class="sr-only">(current)</span></a>
-      <a class="nav-link nav-item" href="#">Locations<span class="sr-only">(current)</span></a>
+      <a class="nav-link nav-item" id="programs" href="#">Programs<span class="sr-only">(current)</span></a>
+      <a class="nav-link nav-item" id="locations" href="#">Locations<span class="sr-only">(current)</span></a>
       <img src="./images/inventorspaceXYZ.svg" alt="inventorspaceXYZ" class="watermark">
-      <a class="nav-link nav-item" href="#">Join<span class="sr-only">(current)</span></a>
-      <a class="nav-link nav-item" href="#">Contact<span class="sr-only">(current)</span></a>
-      <a class="nav-link nav-item" href="#">Sign In<span class="sr-only">(current)</span></a>
+      <a class="nav-link nav-item" id="join" href="#">Join<span class="sr-only">(current)</span></a>
+      <a class="nav-link nav-item" id="contact" href="#">Contact<span class="sr-only">(current)</span></a>
+      <a class="nav-link nav-item" id="sign-in" href="#">Sign In<span class="sr-only">(current)</span></a>
     </div>
   </nav>
   <div id="content">
@@ -62,19 +62,7 @@
   <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-  <script>
-  $("#about").click(function(){
-      $("#content").load("about.html", function(responseTxt, statusTxt, xhr){
-          if(statusTxt == "success")
-              alert("External content loaded successfully!");
-          if(statusTxt == "error")
-              alert("Error: " + xhr.status + ": " + xhr.statusText);
-      });
-      if(!$("#nav-button").is(":hidden")){
-        $("#nav-button").click();}
-
-  });
-</script>
+  <script src="./script/page-selector.js"> </script>
 </body>
 
 </html>
