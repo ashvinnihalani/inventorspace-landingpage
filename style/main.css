@@ -43,3 +43,9 @@
     display: none;
   }
 }
+
+#content{
+  background-color: black;
+  color: white;
+  height: 95vh;
+}

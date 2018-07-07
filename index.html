@@ -17,7 +17,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="mobile-toolbar">
     <div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <button id="nav-button" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
     <img src="./images/lightbulb.svg" alt="lightbulb" class="logo">
     </button>
     </div>
@@ -37,7 +37,25 @@
       <a class="nav-link nav-item" href="#">Sign In<span class="sr-only">(current)</span></a>
     </div>
   </nav>
-  <div id="content"></div>
+  <div id="content">
+    <div id=intro-statement>
+      <div id=inspirational-text>
+        <h2>Love learning. Hate school.​ Kids are bored sitting in classrooms taking tests about things that don’t always align with their interests or real life problems.​</h2>
+        <h2>inventorspaceXYZ is a nonprofit​ dedicated to bringing high-tech, hands-on education to all students regardless of income.​</h2>
+        <h2>We provide spaces and programs for kids to learn what they love in depth and apply it to the real world.​</h2></div>
+      <div class=text-columns>
+        <div class=column-block>
+          <h3>inventorspaces</h3>
+          <p>21st century spaces we set up in schools for kids to pursue STEM, Art, and Entrepreneurship.​</div>
+        <div class=column-block>
+          <h3>inventathons</h3>
+          <p>24-hour hackathons for high and middle schoolers. Students form teams to build a new invention like a solar panel that moves with the sun a Virtual Reality game.</div>
+        <div class=column-block>
+          <h3>inventxcelerator</h3>
+          <p>Students work with real Venture Capitalists and Angel Investors to convert the prototypes they make in an inventorspace or inventathon into real products.​</div>
+      </div>
+    </div>
+  </div>
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -45,12 +63,17 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
   <script>
-    $(document).ready( function() {
-      $("#about").on("click", function() {
-          $("#content").load("about.html");
-          alert( "Load was performed." );
+  $("#about").click(function(){
+      $("#content").load("about.html", function(responseTxt, statusTxt, xhr){
+          if(statusTxt == "success")
+              alert("External content loaded successfully!");
+          if(statusTxt == "error")
+              alert("Error: " + xhr.status + ": " + xhr.statusText);
       });
-    });
+      if(!$("#nav-button").is(":hidden")){
+        $("#nav-button").click();}
+
+  });
 </script>
 </body>
 
