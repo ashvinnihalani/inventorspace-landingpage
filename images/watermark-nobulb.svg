@@ -1,0 +1,104 @@
+<svg width="961.67612" height="146.80535" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker orient="auto" id="marker7985">
+   <path fill="#fff" stroke-width="1pt" stroke="#fff" transform="scale(-0.20000000298023224) " fill-rule="evenodd" d="m5.77,0l-8.65,5l0,-10l8.65,5z" id="path7"/>
+  </marker>
+  <marker orient="auto" id="marker7921">
+   <path fill="#fff" stroke-width="1pt" stroke="#fff" transform="scale(-0.20000000298023224) " fill-rule="evenodd" d="m5.77,0l-8.65,5l0,-10l8.65,5z" id="path10"/>
+  </marker>
+  <marker orient="auto" id="marker7803">
+   <path fill="#fff" stroke-width="1pt" stroke="#fff" transform="scale(0.20000000298023224) " fill-rule="evenodd" d="m5.77,0l-8.65,5l0,-10l8.65,5z" id="path13"/>
+  </marker>
+  <marker orient="auto" id="marker7540">
+   <path fill="#00f" stroke-width="1pt" stroke="#00f" transform="scale(-0.20000000298023224) " fill-rule="evenodd" d="m5.77,0l-8.65,5l0,-10l8.65,5z" id="path16"/>
+  </marker>
+  <marker orient="auto" id="marker7488">
+   <path fill="#008000" stroke-width="1pt" stroke="#008000" transform="scale(-0.20000000298023224) " fill-rule="evenodd" d="m5.77,0l-8.65,5l0,-10l8.65,5z" id="path19"/>
+  </marker>
+  <marker orient="auto" id="marker7448">
+   <path fill="#f00" stroke-width="1pt" stroke="#f00" transform="scale(0.20000000298023224) " fill-rule="evenodd" d="m5.77,0l-8.65,5l0,-10l8.65,5z" id="path22"/>
+  </marker>
+ </defs>
+ <metadata id="metadata24">image/svg+xml</metadata>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="148.80535" width="963.67612" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <g id="g26">
+   <g id="g19" fill="none" stroke-linecap="round" stroke-width="3" stroke="#ffffff">
+    <g id="g30">
+     <path d="m151.330032,33.84798l-32.325,64.65" id="path32"/>
+     <path d="m86.680032,33.84798l32.325,64.65" id="path34"/>
+    </g>
+    <g id="g36">
+     <path d="m-532.619988,-585.128002a32.325,32.325 0 0 1 -16.162,27.994a32.325,32.325 0 0 1 -32.325,0a32.325,32.325 0 0 1 -16.162,-27.994" transform="translate(832.27001953125,-518.9600219726562) scale(1,-1) " id="path38"/>
+     <path d="m235.000032,33.84798l0,64.65" id="path40"/>
+     <path d="m299.650032,66.16798l0,32.325" id="path42"/>
+    </g>
+    <g id="g44">
+     <path d="m-612.939988,-585.128002a32.325,32.325 0 0 1 -28.106,32.048a32.325,32.325 0 0 1 -35.443,-23.682a32.325,32.325 0 0 1 18.853,-38.231a32.325,32.325 0 0 1 40.364,13.702" transform="translate(832.27001953125,-518.9600219726562) scale(1,-1) " id="path46"/>
+     <path d="m219.330032,66.16798l-44.65,0" id="path48"/>
+    </g>
+    <g id="g50">
+     <path d="m315.330032,1.51798l0.00001,85.863" id="path52"/>
+     <path d="m347.650032,33.84798l-44.65,0" id="path54"/>
+     <path d="m331.990032,97.00798a11.112,11.112 0 0 1 -11.112,0a11.112,11.112 0 0 1 -5.5558,-9.623" id="path56"/>
+    </g>
+    <g id="svg_3">
+     <path d="m-414.93999,-587.128a32.325,32.325 0 0 1 -28.106,32.048a32.325,32.325 0 0 1 -35.443,-23.682a32.325,32.325 0 0 1 18.853,-38.231a32.325,32.325 0 0 1 40.364,13.702" transform="translate(832.27001953125,-518.9600219726562) scale(1,-1) " id="svg_1"/>
+     <path stroke="null" transform="rotate(-76 416.70123291015625,76.36454010009763) " d="m422.963968,76.364539l-12.525506,0" id="svg_2"/>
+    </g>
+   </g>
+   <g id="g58">
+    <path fill="none" stroke-width="3" stroke-linecap="round" stroke="#ffffff" d="m3.000032,33.84798l0,64.65" id="path60"/>
+    <circle fill="#ff9814" r="3" cx="3.000032" cy="23.16798" id="circle62"/>
+   </g>
+   <g id="g38" stroke="#ffffff">
+    <g fill="none" stroke-width="3" stroke-linecap="round" id="g64">
+     <path d="m-749.940977,-585.128002a32.325,32.325 0 0 1 -16.162,27.994a32.325,32.325 0 0 1 -32.325,0a32.325,32.325 0 0 1 -16.162,-27.994" transform="translate(832.27001953125,-518.9600219726562) scale(1,-1) " id="path66"/>
+     <path d="m17.680043,33.84798l0,64.65" id="path68"/>
+     <path d="m82.329043,66.16798l0,32.325" id="path70"/>
+    </g>
+    <g fill="none" stroke-width="6" stroke-linecap="round" id="g72">
+     <path d="m533.930066,66.156981l0.00007,63.942" id="path74"/>
+     <circle stroke="null" r="32.325001" cx="266.009954" cy="-585.117003" transform="translate(832.27001953125,-518.9600219726562) scale(-1) " id="circle76"/>
+    </g>
+    <g id="g78">
+     <g fill="none" stroke-width="3" stroke-linecap="round" stroke="#ffffff" id="g80">
+      <path d="m-366.666001,-552.807003a32.325,32.325 0 0 1 -22.857,-9.4677a32.325,32.325 0 0 1 -9.4677,-22.857" transform="translate(832.27001953125,-518.9600219726562) scale(1,-1) " id="path82"/>
+      <path d="m433.280018,33.846981l0,64.65" id="path84"/>
+     </g>
+    </g>
+    <g fill="none" stroke-width="6" stroke-linecap="round" id="g86">
+     <g id="g88">
+      <path d="m498.331054,98.469979a21.28,21.214 0 0 1 -15.047,-6.2133" id="path90"/>
+      <path d="m498.331054,66.139979a16.216,16.162 0 0 1 16.216,16.162a16.216,16.162 0 0 1 -16.216,16.162" id="path92"/>
+      <path d="m498.331054,66.139979a16.216,16.162 0 0 1 -14.044,-8.0812a16.216,16.162 0 0 1 0,-16.162a16.216,16.162 0 0 1 14.044,-8.0812" id="path94"/>
+      <path d="m333.938966,-552.780001a21.28,21.214 0 0 1 -15.047,-6.2133" transform="translate(832.27001953125,-518.9600219726562) scale(-1) " id="path96"/>
+     </g>
+     <g id="g98">
+      <circle r="32.325001" cx="-185.679978" cy="-585.128002" transform="translate(832.27001953125,-518.9600219726562) scale(1,-1) " id="circle100"/>
+      <path d="m678.910042,66.16798l0,32.325" id="path102"/>
+     </g>
+     <path d="m-75.319978,-568.970001a32.325,32.325 0 0 1 -36.36,15.061a32.325,32.325 0 0 1 -23.959,-31.223a32.325,32.325 0 0 1 23.959,-31.223a32.325,32.325 0 0 1 36.36,15.061" transform="translate(832.27001953125,-518.9600219726562) scale(1,-1) " id="path104"/>
+     <g id="g106">
+      <path d="m7.320022,-585.128002a32.325,32.325 0 0 1 -28.106,32.048a32.325,32.325 0 0 1 -35.443,-23.682a32.325,32.325 0 0 1 18.853,-38.231a32.325,32.325 0 0 1 40.364,13.702" transform="translate(832.27001953125,-518.9600219726562) scale(1,-1) " id="path108"/>
+      <path d="m839.590042,66.16798l-44.65,0" id="path110"/>
+     </g>
+    </g>
+   </g>
+   <g fill="none" stroke-width="6" stroke-linecap="round" stroke="#fff" id="g144">
+    <path d="m934.25004,114.490976l-64.65,0" marker-start="url(#marker7985)" id="path146"/>
+    <path d="m869.60004,49.890976l0,64.65" marker-start="url(#marker7921)" id="path148"/>
+    <path d="m869.60004,114.490976l-35.423,27.181" marker-end="url(#marker7803)" id="path150"/>
+   </g>
+   <g fill="none" stroke-linecap="round" stroke-width="6" id="g152">
+    <path d="m934.25004,114.490976l-64.65,0" stroke="#00f" marker-start="url(#marker7540)" opacity="0.75" id="path154"/>
+    <path d="m869.60004,49.890976l0,64.65" stroke="#008000" marker-start="url(#marker7488)" opacity="0.75" id="path156"/>
+    <path d="m869.60004,114.490976l-35.423,27.181" marker-end="url(#marker7448)" stroke="#f00" opacity="0.75" id="path158"/>
+   </g>
+  </g>
+ </g>
+</svg>

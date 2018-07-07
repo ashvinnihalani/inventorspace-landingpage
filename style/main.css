@@ -1,0 +1,45 @@
+.navbar-dark{
+  background-color: black!important;
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-sub{
+  display: flex;
+  justify-content: space-between;
+}
+
+.watermark{
+  height: 5vh;
+}
+
+@media (max-width:992px){
+  .watermark{
+    display: none;
+  }
+}
+
+.logo{
+  height: 5vh;
+}
+
+.navbar-toggler{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.mobile-toolbar{
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  align-items: center;
+}
+
+@media (min-width:992px){
+  .mobile-toolbar{
+    display: none;
+  }
+}
